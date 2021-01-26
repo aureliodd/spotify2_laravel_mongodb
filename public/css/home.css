@@ -1,0 +1,82 @@
+.album-name, .img-thumbnail, .ren-pl, .del-pl{
+    cursor: pointer;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.main{
+    margin-top: 100px;
+}
+
+.little_img{
+    max-height:15px;
+}
+
+.separator{
+    width:100%;
+    border:0.5px solid rgb(223,223,223);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(189, 174, 174, 0.3);
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.overlay_div{
+    cursor: default;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgn(247,247,247);
+}
+
+.playlist-songs{
+    width:100%;
+}
+
+.song-name{
+    text-align: center; 
+    font-weight: bolder;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.song_card{
+    width: 31.7%;
+    border-radius: 10px;
+    padding:5px;
+    margin: 5px;
+}
+
+/*visibilità*/
+.hidden{
+    display: none;
+}
+
+.show_block{
+    display: block;
+}
+
+.show_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.show_inline_block{
+    display: inline-block;
+}

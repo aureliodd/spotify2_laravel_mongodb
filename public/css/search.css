@@ -1,0 +1,53 @@
+.main{
+    margin-top: 100px;
+}
+
+#searchdiv{
+    margin:auto;
+}
+
+#searchbar{
+    width:550px;
+}
+
+.div_result{
+    width: 31.7%;
+    border-radius: 10px;
+    padding:5px;
+    margin: 5px;
+}
+
+.dropped_div{
+    position:absolute;
+    border-radius: 7px;
+    z-index: 1;
+}
+
+.info-song{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dropped_button{
+    margin-left:10px;
+    width:100%;
+    position:relative;
+    cursor: pointer;
+}
+
+/*visibilità*/
+.hidden{
+    display:none;
+}
+
+.show_flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.show_block{
+    display: block;
+}
+
+
